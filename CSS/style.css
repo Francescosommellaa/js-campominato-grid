@@ -9,6 +9,10 @@
 
 /* regole pagina */
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 2em 0;
     height: 100vh;
     background-color: #0e003f;
@@ -18,8 +22,8 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 2.5em;
-    margin: 2em 0; 
+    font-size: 80px;
+    margin: 1.5em 0; 
 }
 
 #game-grid {
@@ -29,12 +33,21 @@ h1 {
     height: 1000px;
     margin: 0 auto;
     border: 1px solid white;
-    border-radius: 20px;
 }
 
 .cell {
-    width: 10%;
+    width: calc(100% / 10);
     height: 10%;
-    border: 1px solid #000;
+    border: 2px solid #fff;
     box-sizing: border-box;
+}
+
+#restart-button {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 1em 4em;
+    margin: 2em;
+    border-radius: 8px;
+    border: none;
 }
