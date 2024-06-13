@@ -1,10 +1,10 @@
 // Seleziona l'elemento della griglia di gioco
-var gameGrid = document.getElementById('game-grid');
+let gameGrid = document.getElementById('game-grid');
 
 // Crea 100 box utilizzando un ciclo for
-for (var i = 1; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
     // Crea un nuovo elemento div
-    var newBox = document.createElement('div');
+    let newBox = document.createElement('div');
 
     // Assegna la classe 'cell' al nuovo div
     newBox.className = 'cell';
@@ -20,7 +20,7 @@ for (var i = 1; i <= 100; i++) {
 }
 
 // Seleziona il pulsante di riavvio
-var restartButton = document.getElementById('restart-button');
+let restartButton = document.getElementById('restart-button');
 
 // Aggiungi un evento click al pulsante di riavvio
 restartButton.addEventListener('click', function() {
