@@ -11,25 +11,25 @@
 body {
     margin: 2em 0;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
+    background-color: #0e003f;
     overflow: hidden;
+    color: white;
 }
 
 h1 {
     text-align: center;
     font-size: 2.5em;
-
+    margin: 2em 0; 
 }
 
 #game-grid {
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
+    width: 1000px;
+    height: 1000px;
     margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 20px;
 }
 
 .cell {
