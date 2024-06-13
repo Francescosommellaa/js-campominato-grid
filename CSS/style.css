@@ -5,3 +5,36 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+
+
+/* regole pagina */
+body {
+    margin: 2em 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+
+}
+
+#game-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 10%;
+    height: 10%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
